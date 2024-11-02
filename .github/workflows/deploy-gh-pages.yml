@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install  # Use if your project has dependencies (e.g., React)
+        working-directory: ./
 
       - name: Build the project
         run: npm run build  # Adjust if your project requires a build step
